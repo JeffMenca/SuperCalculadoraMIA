@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans';
+}
+.section1{
+    background-color:#2d3033;
+    width:100vw;
+    height:50vh; 
+    color: #979da3;
+    font-size: 20px;
+}
+.section2{
+    background-color:#202124;
+    width:100vw;
+    height:50vh;
+}
+.section3{
+	background-color:#202124;
+	width:40%;
+	float:left;
+	height:100%;
+	border-right: 0.3vw solid #2d3033;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;	
+}
+.section4{
+	background-color:#202124;
+	width:60%;
+	float:left;
+	height:100%;
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+.section5{
+	background-color:#202124;
+	width:33%;
+	float:left;
+	height:100%;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;	
+}
+.section6{
+	background-color:#174ea6;
+	width:67%;
+	float:left;
+	height:100%;
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+.section7{
+	background-color:#2d3033;
+	width:100%;
+	float:right;
+	height:20%;
+	margin-top:10%;
+    margin-right:5%;
+    text-align:right;
+	padding:0;
+    box-sizing: border-box;
+    font-size: 60px;
+    color: white;
+}
+
+.calcBT{
+	background-color:#202124;
+    color: white;
+	width:33.33%;
+	float:left;
+	height:25%;
+    border: none;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.calcBT:hover {
+    border: 3px solid #81a7e6;
+  }
+
+.toolsBT{
+	background-color:#202124;
+    color: #81a7e6;
+	width:50%;
+	float:left;
+	height:25%;
+    border: none;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.toolsBT:hover {
+    border: 3px solid #81a7e6;
+  }
+.nullBT{
+	background-color:#202124;
+	width:50%;
+	float:left;
+	height:25%;
+    border: none;
+}
+ul {
+    list-style-type: none;
+    background-color: #333;
+    color: #979da3;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
